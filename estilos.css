@@ -1,0 +1,47 @@
+:root {
+--nord0:#2E3440;
+--nord1: #3B4252;
+--nord2: #434C5E;
+--nord3: #5a6d94;
+--nord4: #d8DEE9;
+--nord5: #E5E9F0;
+--nord6: #ECEFF4;
+--nord7: #8FBCBB;
+--nord8: #88C0D0;
+--nord9: #81A101;
+--nord10: #5E81AC;
+--nord11: #8F616A;
+--nord12: #008770;
+--nord13: #EBCB8B;
+--nord14: #A3BE8C;
+--nord15: #848EAD;
+
+--font: "Segoe UI", "Roboto", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neu Helvetica", "Arial", sans-serif;
+
+}
+
+body {
+    font-family: var(--font) ;
+    color: var(--nord10);
+    }
+    header, section {
+        width: 960px;
+        margin: 0% auto;
+        display: flex;
+    }
+    header {
+        background-color: var(--nord12)
+        color var(--nord2)
+                ;
+     }
+    ul{
+        list-style-type: upper-roman
+    }
+
+    article { width: 60%;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        margin-right: 24px;
+    }
